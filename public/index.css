@@ -1,0 +1,55 @@
+body {
+    background-image: url(background.png);
+    font-family: sans-serif;
+}   
+
+div.logo {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 20px;
+	border-color: #ffffff;
+	font-size: 350%;
+	color: #FFBC40;
+} 
+
+div.login, div.log {
+	position: absolute;
+	left: 10px;
+	width:15px;
+}
+
+div.signup {
+	position: absolute;
+	left: 10px;
+	top: 250px;
+	width:15px;
+}
+
+div.feed {
+	position: relative;
+	left: 220px;
+	width: 1050px;
+	top: 20px;
+	background-color: white;
+	border: 2px solid;
+	border-radius: 20px;
+	text-align: center;
+}
+
+div.copyright {
+	position: relative;
+	width: 1060px;
+	top: 360px;
+}
+
+.ook {
+	border: 2px dashed;
+	border-color: orange;
+}
+
+span.foo {
+	font-weight: bold;
+}

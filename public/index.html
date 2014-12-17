@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <meta charset=utf8>
+    <title>Foo</title>
+    
+    <!-- this is pretty garish. -->
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+    <link rel='stylesheet' href='index.css'>
+
+    
+</head>
+
+<body onload="main()">
+   
+   
+<!-- the header -->
+<div class="logo">
+    <img src='logo.png'>
+    Welcome to MONKEY! 
+    <img src='logo.png'>
+</div>
+    
+<!--the forms --> 
+<%monkey.display(self)%>
+
+<!-- the content area -->    
+<div class="feed">
+   
+    <div>
+        MONKEY is a unique fast-paced, smooth, hipster service
+        just like Twitter&reg; except that Twitter works, and this
+        service doesn't.
+    </div>
+
+    <%monkey.ook(self)%>
+    
+    <div id="ookook">
+        
+    </div>
+
+</div>
+
+<div class="copyright">
+        MONKEY is &copy;<%self.remote.write( str(monkey.time.localtime().tm_year))%> MONKEY. All rights reserved. &#x1f639
+</div>
+        <script type="text/javascript" src="xhr.js"></script>
+</body>
+</HTML>
